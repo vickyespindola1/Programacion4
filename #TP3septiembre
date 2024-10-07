@@ -1,0 +1,20 @@
+#parte 1 - sin pedir datos
+#tp3 parte 1
+#Ci = 100000
+interes = 0,02
+ciclos = 10
+
+icompuestos = Ci*(1 + interes)**ciclos
+print(f*el valor final,con un capital de (ci), un interes de (interes)con la cantidad)
+print(compuesto)
+
+
+
+#parte 2 - pedir datos 
+Ci = int(input('ingresar el valor inicial:'))
+i = float(input('indicar rl valor de interes(en decimales):'))
+n = int(input('indicar cantidad de ciclos/años:'))
+cf = ci *(1+i)**n
+print(f"el valor final,con un capital de(Ci), un interes de [i] con la cantidad de años [n] es")
+print(cf)
+
